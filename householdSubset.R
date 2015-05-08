@@ -1,4 +1,4 @@
-# fetch and read data in a .txt file where NA are marked as ? and column classes are character, character and the rest are numeric
+# fetch and read data in a .txt file where NA are marked with ? and column classes are character, character and the rest are numeric
 data <- read.table("household_power_consumption.txt",
                    header = TRUE,
                    sep = ";",
