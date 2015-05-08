@@ -1,7 +1,7 @@
 #plot the subset of data fetched through householdSubset.R script
 source("householdSubset.R")
 
-#png image named plot4, dimensions 480x480px with a transparent background
+#png image named plot1, dimensions 480x480px with a transparent background
 png(filename = "plot1.png", 
     width = 480, height = 480, 
     units = "px", bg = "transparent")
